@@ -1,0 +1,1 @@
+[init] cloud run log created
