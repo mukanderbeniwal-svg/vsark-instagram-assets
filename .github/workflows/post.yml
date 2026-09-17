@@ -1,0 +1,38 @@
+name: VSARK Instagram Auto-Poster
+
+on:
+  schedule:
+    # Every 30 minutes, all day. GitHub Actions cron timing isn't exact
+    # to the minute but is reliably within a few minutes.
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Check and post due carousels
+        env:
+          INSTAGRAM_ACCOUNT_ID: ${{ secrets.INSTAGRAM_ACCOUNT_ID }}
+          INSTAGRAM_LONG_LIVED_TOKEN: ${{ secrets.INSTAGRAM_LONG_LIVED_TOKEN }}
+        run: python cloud_post.py
+
+      - name: Commit updated queue.json and log
+        run: |
+          git config user.name "vsark-auto-poster"
+          git config user.email "actions@github.com"
+          git add queue.json run_log.txt
+          git diff --quiet --cached || git commit -m "Update queue after posting run [skip ci]"
+          git push
