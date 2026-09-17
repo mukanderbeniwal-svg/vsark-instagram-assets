@@ -108,6 +108,18 @@ def main():
         log("Nothing due.")
         print("QUEUE_CHANGED=false")
 
+    # Low-queue check: warn once a day (not every 30 min) if the buffer
+    # of future pending posts is running thin.
+    if now.hour == 9 and now.minute < 30:
+        pending_future = [
+            e for e in queue
+            if e.get("status") == "pending" and datetime.fromisoformat(e["scheduled_for"]) >= now
+        ]
+        days_left = len(pending_future)
+        if days_left <= 7:
+            last_date = max((e["scheduled_for"][:10] for e in pending_future), default="none")
+            log(f"LOW QUEUE WARNING: only {days_left} day(s) of posts remain (through {last_date}). Ask Claude to top up the queue.")
+
 
 if __name__ == "__main__":
     main()
