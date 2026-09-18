@@ -4,10 +4,10 @@
     "type": "carousel",
     "caption": "GST return due dates you genuinely can't afford to forget \ud83d\udcc5\n\nGSTR-1, GSTR-3B, CMP-08, GSTR-9 \u2014 miss any of these and you're looking at late fees, interest, and blocked input tax credit. All of it avoidable with the right calendar (or the right CA).\n\n\ud83d\udce9 DM us or reach out for a free consultation\n\ud83d\udce7 mukander@vsark.com | \ud83d\udcde +91 8580461755\n\n#GST #GSTReturns #TaxCompliance #CharteredAccountant #IncomeTax #SmallBusinessIndia #CAFirm #FinanceTips #GurgaonBusiness #VSARKAndAssociates",
     "scheduled_for": "2026-09-18T11:00:00+05:30",
-    "status": "pending",
+    "status": "failed",
     "posted_at": null,
     "media_id": null,
-    "error": null,
+    "error": "publish failed: {'message': 'Media ID is not available', 'type': 'OAuthException', 'code': 9007, 'error_subcode': 2207027, 'is_transient': False, 'error_user_title': 'Cannot Publish', 'error_user_msg': 'The media is not ready for publishing, please wait for a moment', 'fbtrace_id': 'AK2ocC99x4OjukJKotYf4D1'}",
     "image_urls": [
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-2/slide1.png",
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-2/slide2.png",

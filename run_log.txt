@@ -3,3 +3,13 @@
 [2026-09-18T01:08:27.657205+05:30] Nothing due.
 [2026-09-18T04:15:00.749769+05:30] Nothing due.
 [2026-09-18T06:38:36.371640+05:30] Nothing due.
+[2026-09-18T11:57:11.849798+05:30] Posting e047517f-0012-4521-911e-2798abf05dba (carousel), scheduled for 2026-09-18T11:00:00+05:30...
+[2026-09-18T11:57:44.842001+05:30]   -> FAILED: publish failed: {'message': 'Media ID is not available', 'type': 'OAuthException', 'code': 9007, 'error_subcode': 2207027, 'is_transient': False, 'error_user_title': 'Cannot Publish', 'error_user_msg': 'The media is not ready for publishing, please wait for a moment', 'fbtrace_id': 'AK2ocC99x4OjukJKotYf4D1'}
+[2026-09-18T11:57:44.842749+05:30] Traceback (most recent call last):
+  File "/home/runner/work/vsark-instagram-assets/vsark-instagram-assets/cloud_post.py", line 89, in main
+    media_id = post_carousel(entry["image_urls"], entry["caption"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vsark-instagram-assets/vsark-instagram-assets/cloud_post.py", line 66, in post_carousel
+    raise RuntimeError(f"publish failed: {publish['error']}")
+RuntimeError: publish failed: {'message': 'Media ID is not available', 'type': 'OAuthException', 'code': 9007, 'error_subcode': 2207027, 'is_transient': False, 'error_user_title': 'Cannot Publish', 'error_user_msg': 'The media is not ready for publishing, please wait for a moment', 'fbtrace_id': 'AK2ocC99x4OjukJKotYf4D1'}
+
