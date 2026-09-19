@@ -19,3 +19,13 @@ RuntimeError: publish failed: {'message': 'Media ID is not available', 'type': '
 [2026-09-19T03:17:20.545858+05:30] Nothing due.
 [2026-09-19T05:32:05.095432+05:30] Nothing due.
 [2026-09-19T10:24:28.744917+05:30] Nothing due.
+[2026-09-19T14:48:28.309042+05:30] Posting 92a80882-aa7f-4607-b519-8ea496ed872a (carousel), scheduled for 2026-09-19T11:00:00+05:30...
+[2026-09-19T14:48:28.691033+05:30]   -> FAILED: carousel item creation failed: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A3JJjNsAZ1whGmHdf5yuTpY'}
+[2026-09-19T14:48:28.691624+05:30] Traceback (most recent call last):
+  File "/home/runner/work/vsark-instagram-assets/vsark-instagram-assets/cloud_post.py", line 89, in main
+    media_id = post_carousel(entry["image_urls"], entry["caption"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vsark-instagram-assets/vsark-instagram-assets/cloud_post.py", line 46, in post_carousel
+    raise RuntimeError(f"carousel item creation failed: {create['error']}")
+RuntimeError: carousel item creation failed: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A3JJjNsAZ1whGmHdf5yuTpY'}
+

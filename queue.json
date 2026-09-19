@@ -23,10 +23,10 @@
     "type": "carousel",
     "caption": "5 signs it's time to bring in a CA \ud83d\udcbc\n\nNot just for tax season \u2014 a good CA changes how you run the business all year round. If more than one of these sounds familiar, let's talk.\n\n\ud83d\udce9 DM us or reach out for a free consultation\n\ud83d\udce7 mukander@vsark.com | \ud83d\udcde +91 8580461755\n\n#BusinessAdvisory #CharteredAccountant #SmallBusinessIndia #StartupIndia #CAFirm #FinanceTips #BusinessGrowth #GurgaonBusiness #VSARKAndAssociates",
     "scheduled_for": "2026-09-19T11:00:00+05:30",
-    "status": "pending",
+    "status": "failed",
     "posted_at": null,
     "media_id": null,
-    "error": null,
+    "error": "carousel item creation failed: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A3JJjNsAZ1whGmHdf5yuTpY'}",
     "image_urls": [
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-3/slide1.png",
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-3/slide2.png",
