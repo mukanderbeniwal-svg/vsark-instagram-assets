@@ -80,10 +80,10 @@
     "type": "carousel",
     "caption": "What's actually happening to your salary before it hits your account? \ud83d\udcb0\n\nTDS isn't the final word on your taxes \u2014 it's an advance. Here's what every salaried employee should actually understand about it.\n\n\ud83d\udce9 DM us or reach out for a free consultation\n\ud83d\udce7 mukander@vsark.com | \ud83d\udcde +91 8580461755\n\n#TDS #IncomeTax #SalariedEmployees #TaxTips #CharteredAccountant #CAFirm #FinanceTips #GurgaonBusiness #VSARKAndAssociates",
     "scheduled_for": "2026-09-22T11:00:00+05:30",
-    "status": "pending",
+    "status": "failed",
     "posted_at": null,
     "media_id": null,
-    "error": null,
+    "error": "carousel item creation failed: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A9P6CwF7Z6ABE9zP-NpwMAJ'}",
     "image_urls": [
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-6/slide1.png",
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-6/slide2.png",
