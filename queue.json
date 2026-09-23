@@ -99,10 +99,10 @@
     "type": "carousel",
     "caption": "Got an income tax notice and your stomach just dropped? Take a breath first \ud83d\udce9\n\nMost notices are routine \u2014 a mismatch, a missing document, a simple clarification. Here's how to actually handle one without the panic.\n\n\ud83d\udce9 DM us or reach out for a free consultation\n\ud83d\udce7 mukander@vsark.com | \ud83d\udcde +91 8580461755\n\n#IncomeTaxNotice #TaxTips #IncomeTax #CharteredAccountant #CAFirm #FinanceTips #GurgaonBusiness #VSARKAndAssociates",
     "scheduled_for": "2026-09-23T11:00:00+05:30",
-    "status": "pending",
+    "status": "failed",
     "posted_at": null,
     "media_id": null,
-    "error": null,
+    "error": "carousel item creation failed: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AzAQzjfrvS7CxuUnMT0nDFZ'}",
     "image_urls": [
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-7/slide1.png",
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-7/slide2.png",
