@@ -118,10 +118,10 @@
     "type": "carousel",
     "caption": "Your books are talking. Are you listening? \ud83d\udcd2\n\nMost small business owners don't realise how much these five habits are costing them until tax time \u2014 by then it's already expensive to fix.\n\n\ud83d\udce9 DM us or reach out for a free consultation\n\ud83d\udce7 mukander@vsark.com | \ud83d\udcde +91 8580461755\n\n#Bookkeeping #SmallBusinessIndia #Accounting #CharteredAccountant #CAFirm #FinanceTips #GurgaonBusiness #VSARKAndAssociates",
     "scheduled_for": "2026-09-24T11:00:00+05:30",
-    "status": "pending",
+    "status": "failed",
     "posted_at": null,
     "media_id": null,
-    "error": null,
+    "error": "carousel item creation failed: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'ARJFDODH1hzVWCRu9wONt2h'}",
     "image_urls": [
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-8/slide1.png",
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-8/slide2.png",
