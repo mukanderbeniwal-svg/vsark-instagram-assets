@@ -137,10 +137,10 @@
     "type": "carousel",
     "caption": "Advance tax isn't optional if it applies to you \u2014 and the interest for skipping it adds up fast \u23f1\ufe0f\n\nFour due dates, one simple idea: pay as you earn, not all at once in July.\n\n\ud83d\udce9 DM us or reach out for a free consultation\n\ud83d\udce7 mukander@vsark.com | \ud83d\udcde +91 8580461755\n\n#AdvanceTax #IncomeTax #TaxCompliance #CharteredAccountant #CAFirm #FinanceTips #GurgaonBusiness #VSARKAndAssociates",
     "scheduled_for": "2026-09-25T11:00:00+05:30",
-    "status": "pending",
+    "status": "failed",
     "posted_at": null,
     "media_id": null,
-    "error": null,
+    "error": "carousel item creation failed: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AaDokC24oWRFn2eEVBAZsZd'}",
     "image_urls": [
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-9/slide1.png",
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-9/slide2.png",
