@@ -118,3 +118,4 @@ RuntimeError: carousel item creation failed: {'message': 'API access blocked.', 
     raise RuntimeError(f"carousel item creation failed: {create['error']}")
 RuntimeError: carousel item creation failed: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AaDokC24oWRFn2eEVBAZsZd'}
 
+[2026-09-25T18:25:02.107645+05:30] Nothing due.
