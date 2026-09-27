@@ -138,3 +138,13 @@ RuntimeError: carousel item creation failed: {'message': 'API access blocked.', 
 [2026-09-27T02:55:54.980011+05:30] Nothing due.
 [2026-09-27T05:18:02.072498+05:30] Nothing due.
 [2026-09-27T10:11:55.089866+05:30] Nothing due.
+[2026-09-27T15:56:14.004608+05:30] Posting dca4142a-7b17-49b1-8e7d-982ea190b690 (carousel), scheduled for 2026-09-27T11:00:00+05:30...
+[2026-09-27T15:56:14.547366+05:30]   -> FAILED: carousel item creation failed: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A_3mkUl11G5LvrsaKSvJgzp'}
+[2026-09-27T15:56:14.548036+05:30] Traceback (most recent call last):
+  File "/home/runner/work/vsark-instagram-assets/vsark-instagram-assets/cloud_post.py", line 89, in main
+    media_id = post_carousel(entry["image_urls"], entry["caption"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vsark-instagram-assets/vsark-instagram-assets/cloud_post.py", line 46, in post_carousel
+    raise RuntimeError(f"carousel item creation failed: {create['error']}")
+RuntimeError: carousel item creation failed: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A_3mkUl11G5LvrsaKSvJgzp'}
+
