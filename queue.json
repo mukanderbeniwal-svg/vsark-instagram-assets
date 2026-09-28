@@ -194,10 +194,10 @@
     "type": "carousel",
     "caption": "Tax audit \u2260 tax trouble. It's a compliance step, not a red flag \ud83d\udccb\n\nIf your turnover is approaching the threshold, here's what actually happens \u2014 and why organised books make the whole thing painless.\n\n\ud83d\udce9 DM us or reach out for a free consultation\n\ud83d\udce7 mukander@vsark.com | \ud83d\udcde +91 8580461755\n\n#TaxAudit #CharteredAccountant #TaxCompliance #CAFirm #FinanceTips #GurgaonBusiness #VSARKAndAssociates",
     "scheduled_for": "2026-09-28T11:00:00+05:30",
-    "status": "pending",
+    "status": "failed",
     "posted_at": null,
     "media_id": null,
-    "error": null,
+    "error": "carousel item creation failed: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AE900K1eQS9woA3VdEXKUxv'}",
     "image_urls": [
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-12/slide1.png",
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-12/slide2.png",
