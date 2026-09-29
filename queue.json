@@ -213,10 +213,10 @@
     "type": "carousel",
     "caption": "Freelancing means your taxes work differently \u2014 and most freelancers find that out the hard way \ud83d\udcbb\n\nBusiness income rules, presumptive taxation, advance tax \u2014 here's what actually applies to you.\n\n\ud83d\udce9 DM us or reach out for a free consultation\n\ud83d\udce7 mukander@vsark.com | \ud83d\udcde +91 8580461755\n\n#Freelancer #TaxTips #IncomeTax #CharteredAccountant #CAFirm #FinanceTips #GurgaonBusiness #VSARKAndAssociates",
     "scheduled_for": "2026-09-29T11:00:00+05:30",
-    "status": "pending",
+    "status": "failed",
     "posted_at": null,
     "media_id": null,
-    "error": null,
+    "error": "carousel item creation failed: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AGJfOg6THeKs_e3aodIRxZK'}",
     "image_urls": [
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-13/slide1.png",
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-13/slide2.png",
