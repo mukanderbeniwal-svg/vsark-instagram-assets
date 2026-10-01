@@ -251,10 +251,10 @@
     "type": "carousel",
     "caption": "Missed the deadline? Made a mistake after filing? There's a fix for both \ud83d\udcdd\n\nBelated returns and revised returns solve different problems \u2014 here's how to tell which one you need.\n\n\ud83d\udce9 DM us or reach out for a free consultation\n\ud83d\udce7 mukander@vsark.com | \ud83d\udcde +91 8580461755\n\n#ITRFiling #IncomeTax #TaxFiling #CharteredAccountant #CAFirm #FinanceTips #GurgaonBusiness #VSARKAndAssociates",
     "scheduled_for": "2026-10-01T11:00:00+05:30",
-    "status": "pending",
+    "status": "failed",
     "posted_at": null,
     "media_id": null,
-    "error": null,
+    "error": "carousel item creation failed: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A7DormGbOGpsSuIBcnLDzUz'}",
     "image_urls": [
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-15/slide1.png",
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-15/slide2.png",
