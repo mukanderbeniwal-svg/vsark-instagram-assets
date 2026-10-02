@@ -270,10 +270,10 @@
     "type": "carousel",
     "caption": "Shipping goods without a valid e-way bill can stop your delivery cold \ud83d\ude9a\n\nHere's what triggers one, who's responsible for generating it, and why it needs to match your invoice exactly.\n\n\ud83d\udce9 DM us or reach out for a free consultation\n\ud83d\udce7 mukander@vsark.com | \ud83d\udcde +91 8580461755\n\n#GST #EWayBill #TaxCompliance #CharteredAccountant #CAFirm #GurgaonBusiness #VSARKAndAssociates",
     "scheduled_for": "2026-10-02T11:00:00+05:30",
-    "status": "pending",
+    "status": "failed",
     "posted_at": null,
     "media_id": null,
-    "error": null,
+    "error": "carousel item creation failed: {'message': 'API access blocked.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AES6FM66ngyj-gtAa1I9SS6'}",
     "image_urls": [
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-16/slide1.png",
       "https://raw.githubusercontent.com/mukanderbeniwal-svg/vsark-instagram-assets/main/posts/carousel-16/slide2.png",
